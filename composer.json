@@ -1,0 +1,23 @@
+{
+    "name": "gontran/laposte-shipping-bundle",
+    "type": "sylius-plugin",
+    "description": "Shipping cost calculators from La Poste for Sylius.",
+    "keywords": ["Sylius", "La Poste", "Colissimo", "Lettre Suivie", "Symfony"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Geoffroy de Corbiac",
+            "email":    "geoffroydecorbiac@gmail.com",
+            "homepage": "https://github.com/gdecorbiac"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "sylius/sylius": "^1.0.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gontran\\LaPosteShippingBundle\\": "src/"
+        }
+    }
+}
