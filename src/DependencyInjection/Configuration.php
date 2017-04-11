@@ -13,7 +13,7 @@ final class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('acme_example');
+        $rootNode = $treeBuilder->root('laposte_shipping_bundle');
 
         return $treeBuilder;
     }
